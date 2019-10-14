@@ -33,3 +33,5 @@ for (int p : primes) {
     v.mult(p*(sqrt(2)*width/2)/maxPrime);
     point(v.x, v.y);
 }
+
+save("img/spiral.png");
